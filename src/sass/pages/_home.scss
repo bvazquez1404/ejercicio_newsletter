@@ -1,3 +1,44 @@
 /* ********* */
 /* @HOME */
 /* ********* */
+.newsletter{
+    font-family: $fuente;
+}
+
+.texto{
+    color: white;
+    font-size: 40px;
+    padding-bottom: 15px;
+}
+
+.input{
+    border-style: none;
+    background-color: rgba(255, 255, 255, 0);
+    padding: 20px;
+    width: 80%;
+    color: white;
+}
+
+.input::placeholder{
+    color: white;
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+.inputs{
+    border: 1px solid white;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+}
+
+.sus{
+    border-style: none;
+    background-color: rgba(255, 255, 255, 0);
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    padding-right: 20px;
+}

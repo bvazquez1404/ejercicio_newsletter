@@ -1,3 +1,18 @@
 /* ********* */
 /* @VARIABLES */
 /* ********* */
+
+// COLORES
+$colores: (
+    azul: rgb(15, 88, 122), 
+    turquesa: rgb(87, 255, 247)
+);
+
+.newsletter{
+    background: linear-gradient(to bottom, 
+    map-get($colores, azul),
+    map-get($colores, turquesa));
+};
+
+//FUENTES
+$fuente: sans-serif;
